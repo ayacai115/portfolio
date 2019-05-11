@@ -1,0 +1,141 @@
+body {
+    text-align: center;
+}
+
+#title {
+    margin: 40px auto;
+}
+
+#title p {
+    font-size: 80px;
+}
+
+#nav {
+    width: 50%;
+    margin: auto;
+}
+
+#nav td {
+    width: calc(100% / 4);
+    font-size: 20px;
+}
+
+
+.section {
+    margin: 50px auto;
+    padding: 50px;
+    min-height: 500px;
+    border: 1px solid black;
+}
+
+.section-title {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+
+/* about */
+
+#about-wrappter {
+    padding: 0px 200px;
+    min-height: 200px;
+    background-color: aquamarine;
+
+}
+
+#about-left {
+    float: left;
+    width: 50%;
+    /*padding-left: 100px;*/
+}
+
+#about-left img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+#about-right {
+    float: left;
+    width: 50%;
+    min-height: 200px;
+    text-align: left;
+
+}
+
+
+/*skills*/
+
+#skills-wrappter {
+    padding: 0px 200px;
+    min-height: 200px;
+    /*background-color: aquamarine;*/
+}
+
+/* -category */
+.skill-category-wrapper {
+    float: left;
+    width: calc(100% / 3);
+    min-height: 300px;
+    margin-bottom: 20px;
+    background-color: cadetblue;
+}
+
+.skill-category-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.skill-category-icon {
+    width: 100%;
+    /*background-color: darkred;*/
+}
+
+.skill-category-icon img {
+    width: 40%;
+}
+
+/* -card */
+.skill-card {
+    height: 200px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.skill-icon {
+    float: left;
+    height: 100%;
+    width: 30%;
+    background-color: hotpink;
+}
+
+.skill-content-wrapper {
+    float: left;
+    height: 100%;
+    width: 70%;
+    background-color: coral;
+}
+
+.skill-title {
+    text-align: left;
+    height: 50px;
+
+}
+
+.skill-title p {
+    font-size: 20px;
+}
+
+/* contact */
+
+#contact-wrapper {
+    padding: 0px 200px;
+    min-height: 200px;
+    background-color: aquamarine;
+}
+
+.contact-item {
+    float: left;
+    width: calc(100% / 3);
+    margin-top: 80px;
+}
